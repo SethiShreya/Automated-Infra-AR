@@ -1,0 +1,16 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class destroy : MonoBehaviour
+{
+    private void Update()
+    {
+        if (transform.childCount < 1)
+        {
+            Destroy(gameObject);
+            
+        }
+    }
+
+}
